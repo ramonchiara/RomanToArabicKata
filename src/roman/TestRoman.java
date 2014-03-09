@@ -153,4 +153,10 @@ public class TestRoman {
 		assertThat(roman.intValue(), is(500));
 	}
 
+	@Test
+	public void cdShouldBeFourHundred() {
+		roman = new Roman("CD");
+		assertThat(roman.intValue(), is(400));
+	}
+
 }
