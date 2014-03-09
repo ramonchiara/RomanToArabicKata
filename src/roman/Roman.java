@@ -38,7 +38,6 @@ public class Roman {
 				}
 			} else {
 				value = value + digit;
-
 			}
 
 			lastDigit = digit;

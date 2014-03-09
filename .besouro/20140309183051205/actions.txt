@@ -291,3 +291,6 @@ UnitTestSessionAction 1394405862682 TestRoman OK
 RefactoringAction 1394405880782 TestRoman.java ADD void mcmxcviiiShouldBeOneThousand()/2 METHOD
 RefactoringAction 1394405913419 TestRoman.java RENAME mcmxcviiiShouldBeOneThousand()/2=>void mmShouldBeOneThousand() METHOD
 EditAction 1394405915666 TestRoman.java 3714 29 58 29
+UnitTestCaseAction 1394405917553 TestRoman.java OK
+UnitTestSessionAction 1394405917554 TestRoman OK
+EditAction 1394405931806 Roman.java 1032 2 13 0
