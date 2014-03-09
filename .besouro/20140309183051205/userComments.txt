@@ -1,2 +1,3 @@
 1394402544529 comment test-addition para mim é conformant, mas adicionar três de uma vez, não; concordo com o besouro de ser non-conformant. 0 null
 1394402657159 comment Somente um teste foi adicionado. Para mim é conformant. 0 null
+1394405365155 comment Fiz o teste errado de propósito; depois arrumei e passou; foi só adição de um teste. 0 null

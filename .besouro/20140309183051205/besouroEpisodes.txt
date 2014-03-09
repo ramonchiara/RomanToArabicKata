@@ -79,3 +79,7 @@
 1394405315585 test-addition 1 11 true
 1394405343240 test-addition 1 9 true
 1394405343241 test-addition 1 9 true
+1394405365155 test-addition 2 17 true
+1394405365156 test-addition 1 17 true
+1394405365157 test-addition 2 17 true
+1394405365158 test-addition 1 17 true
