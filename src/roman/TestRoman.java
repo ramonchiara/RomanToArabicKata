@@ -177,4 +177,10 @@ public class TestRoman {
 		assertThat(roman.intValue(), is(1998));
 	}
 
+	@Test
+	public void mmdccliShouldBeOneThousand() {
+		roman = new Roman("MMDCCLI");
+		assertThat(roman.intValue(), is(2751));
+	}
+
 }
