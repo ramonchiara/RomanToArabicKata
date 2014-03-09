@@ -271,3 +271,7 @@ EditAction 1394405691679 TestRoman.java 3320 26 52 26
 UnitTestCaseAction 1394405693540 TestRoman.java OK
 UnitTestSessionAction 1394405693541 TestRoman OK
 EditAction 1394405699343 TestRoman.java 3317 26 52 26
+RefactoringAction 1394405758442 TestRoman.java ADD void cdShouldBeFourHundred()/2 METHOD
+RefactoringAction 1394405760960 TestRoman.java RENAME cdShouldBeFourHundred()/2=>void mShouldBeFourHundred() METHOD
+RefactoringAction 1394405765984 TestRoman.java RENAME mShouldBeFourHundred()=>void mShouldBeOneThousand() METHOD
+EditAction 1394405769771 TestRoman.java 3440 27 54 27
