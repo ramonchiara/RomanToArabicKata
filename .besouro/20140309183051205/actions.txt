@@ -114,3 +114,6 @@ RefactoringAction 1394402272361 TestRoman.java ADD void viiShouldBeSeven()/2 MET
 RefactoringAction 1394402274382 TestRoman.java RENAME viiShouldBeSeven()/2=>void viiiShouldBeSeven() METHOD
 RefactoringAction 1394402277401 TestRoman.java RENAME viiiShouldBeSeven()=>void viiiShouldBeEight() METHOD
 EditAction 1394402282914 TestRoman.java 1114 8 16 8
+UnitTestCaseAction 1394402284725 TestRoman.java FAIL
+UnitTestSessionAction 1394402284726 TestRoman FAIL
+EditAction 1394402290778 TestRoman.java 1115 8 16 8
