@@ -99,4 +99,10 @@ public class TestRoman {
 		assertThat(roman.intValue(), is(24));
 	}
 
+	@Test
+	public void lShouldBeFifty() {
+		roman = new Roman("L");
+		assertThat(roman.intValue(), is(50));
+	}
+
 }

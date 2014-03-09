@@ -177,3 +177,10 @@ EditAction 1394403105522 Roman.java 909 2 9 0
 UnitTestCaseAction 1394403107180 TestRoman.java FAIL
 UnitTestSessionAction 1394403107180 TestRoman FAIL
 EditAction 1394403146853 Roman.java 910 2 9 0
+UnitTestCaseAction 1394403152291 TestRoman.java OK
+UnitTestSessionAction 1394403152291 TestRoman OK
+RefactoringAction 1394405161588 TestRoman.java ADD void xxivShouldBeTwentyFour()/2 METHOD
+RefactoringAction 1394405170136 TestRoman.java RENAME xxivShouldBeTwentyFour()/2=>void lShouldBeTwentyFour() METHOD
+RefactoringAction 1394405173149 TestRoman.java RENAME lShouldBeTwentyFour()=>void lShouldBeFif() METHOD
+RefactoringAction 1394405174663 TestRoman.java RENAME lShouldBeFif()=>void lShouldBeFifty() METHOD
+EditAction 1394405180837 TestRoman.java 2071 16 32 16
