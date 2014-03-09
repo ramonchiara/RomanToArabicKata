@@ -37,3 +37,6 @@ UnitTestSessionAction 1394401005524 TestRoman OK
 RefactoringAction 1394401028436 TestRoman.java ADD void iiShouldBe FIELD
 RefactoringAction 1394401029972 TestRoman.java RENAME iiShouldBe=>void iiShouldBeTwo() METHOD
 EditAction 1394401055665 TestRoman.java 449 2 6 2
+UnitTestCaseAction 1394401068652 TestRoman.java FAIL
+UnitTestSessionAction 1394401068653 TestRoman FAIL
+EditAction 1394401146623 Roman.java 269 2 2 0

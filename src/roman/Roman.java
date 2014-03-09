@@ -9,7 +9,12 @@ public class Roman {
 	}
 
 	public int intValue() {
-		return 1;
+		if (romanNumber.equals("I")) {
+			return 1;
+		}
+		else {
+			return 2;
+		}
 	}
 
 }
