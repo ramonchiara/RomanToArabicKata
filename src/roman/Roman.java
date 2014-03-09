@@ -1,21 +1,25 @@
 package roman;
 
+import java.util.HashMap;
+import java.util.Map;
+
 public class Roman {
 
 	private String romanNumber;
+	
+	private Map<String, Integer> basicNumbers;
 
 	public Roman(String romanNumber) {
 		this.romanNumber = romanNumber;
+		this.basicNumbers = new HashMap<String, Integer>();
+		
+		basicNumbers.put("I", 1);
+		basicNumbers.put("II", 2);
+		basicNumbers.put("III", 3);
 	}
 
 	public int intValue() {
-		if (romanNumber.equals("I")) {
-			return 1;
-		} else if (romanNumber.equals("II")){
-			return 2;
-		} else {
-			return 3;
-		}
+		return basicNumbers.get(romanNumber);
 	}
 
 }

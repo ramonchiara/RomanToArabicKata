@@ -57,3 +57,13 @@ EditAction 1394401302905 TestRoman.java 535 3 6 3
 UnitTestCaseAction 1394401304701 TestRoman.java FAIL
 UnitTestSessionAction 1394401304702 TestRoman FAIL
 EditAction 1394401324381 Roman.java 321 2 2 0
+UnitTestCaseAction 1394401326214 TestRoman.java OK
+UnitTestSessionAction 1394401326215 TestRoman OK
+RefactoringAction 1394401349706 Roman.java ADD Map basic FIELD
+RefactoringAction 1394401354216 Roman.java RENAME basic=>Map basicNumbers FIELD
+RefactoringAction 1394401362261 Roman.java ADD import java.util.HashMap IMPORT
+RefactoringAction 1394401369274 Roman.java REMOVE basicNumbers FIELD
+RefactoringAction 1394401373791 Roman.java ADD Map<String,Integer> basicNumbers FIELD
+RefactoringAction 1394401389858 Roman.java RENAME import java.util.HashMap=>import java.util.Map IMPORT
+RefactoringAction 1394401393378 Roman.java ADD import java.util.HashMap IMPORT
+EditAction 1394401438120 Roman.java 477 2 6 0
