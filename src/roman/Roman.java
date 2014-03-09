@@ -11,8 +11,7 @@ public class Roman {
 	public int intValue() {
 		if (romanNumber.equals("I")) {
 			return 1;
-		}
-		else {
+		} else {
 			return 2;
 		}
 	}
