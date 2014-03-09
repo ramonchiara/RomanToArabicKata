@@ -24,12 +24,12 @@ public class Roman {
 		for (int i = 0; i < romanNumber.length(); i++) {
 			int digit = basicNumbers.get(romanNumber.substring(i, i + 1));
 
-			if (digit > lastDigit) {
+			if (lastDigit != null && digit > lastDigit) {
 				value = digit - value;
 			} else {
 				value = value + digit;
 			}
-			
+
 			lastDigit = digit;
 		}
 
