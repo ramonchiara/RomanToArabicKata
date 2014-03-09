@@ -20,10 +20,17 @@ public class Roman {
 	public int intValue() {
 		int value = 0;
 
+		int lastDigit = 0;
 		for (int i = 0; i < romanNumber.length(); i++) {
 			int digit = basicNumbers.get(romanNumber.substring(i, i + 1));
+
+			if (digit > lastDigit) {
+				value = digit - value;
+			} else {
+				value = value + digit;
+			}
 			
-			value += digit;
+			lastDigit = digit;
 		}
 
 		return value;
