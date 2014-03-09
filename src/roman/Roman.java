@@ -6,25 +6,27 @@ import java.util.Map;
 public class Roman {
 
 	private String romanNumber;
-	
+
 	private Map<String, Integer> basicNumbers;
 
 	public Roman(String romanNumber) {
 		this.romanNumber = romanNumber;
 		this.basicNumbers = new HashMap<String, Integer>();
-		
+
 		basicNumbers.put("I", 1);
-		basicNumbers.put("II", 2);
-		basicNumbers.put("III", 3);
-		basicNumbers.put("IV", 4);
 		basicNumbers.put("V", 5);
-		basicNumbers.put("VI", 6);
-		basicNumbers.put("VII", 7);
-		basicNumbers.put("VIII", 8);
 	}
 
 	public int intValue() {
-		return basicNumbers.get(romanNumber);
+		int value = 0;
+
+		for (int i = 0; i < romanNumber.length(); i++) {
+			int digit = basicNumbers.get(romanNumber.substring(i, i + 1));
+			
+			value += digit;
+		}
+
+		return value;
 	}
 
 }
