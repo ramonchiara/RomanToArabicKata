@@ -126,3 +126,9 @@ EditAction 1394402308752 TestRoman.java 1230 9 18 9
 UnitTestCaseAction 1394402310899 TestRoman.java FAIL
 UnitTestSessionAction 1394402310900 TestRoman FAIL
 EditAction 1394402319792 Roman.java 775 2 9 0
+UnitTestCaseAction 1394402321579 TestRoman.java OK
+UnitTestSessionAction 1394402321579 TestRoman OK
+RefactoringAction 1394402485073 TestRoman.java ADD void ixShouldBeNine()/2 METHOD
+RefactoringAction 1394402488601 TestRoman.java RENAME ixShouldBeNine()/2=>void xShouldBeNine() METHOD
+RefactoringAction 1394402492153 TestRoman.java RENAME xShouldBeNine()=>void xShouldBeTen() METHOD
+EditAction 1394402495504 TestRoman.java 1343 10 20 10
