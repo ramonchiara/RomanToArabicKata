@@ -123,4 +123,10 @@ public class TestRoman {
 		assertThat(roman.intValue(), is(70));
 	}
 
+	@Test
+	public void lxxxShouldBeEighty() {
+		roman = new Roman("LXX");
+		assertThat(roman.intValue(), is(80));
+	}
+
 }

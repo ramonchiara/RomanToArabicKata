@@ -209,3 +209,9 @@ RefactoringAction 1394405333428 TestRoman.java ADD void lxShouldBeSixty()/2 METH
 RefactoringAction 1394405336945 TestRoman.java RENAME lxShouldBeSixty()/2=>void lxShouldBeSeventy() METHOD
 RefactoringAction 1394405338461 TestRoman.java RENAME lxShouldBeSeventy()=>void lxxShouldBeSeventy() METHOD
 EditAction 1394405341351 TestRoman.java 2427 19 38 19
+UnitTestCaseAction 1394405343240 TestRoman.java OK
+UnitTestSessionAction 1394405343240 TestRoman OK
+RefactoringAction 1394405348008 TestRoman.java ADD void lxxShouldBeSeventy()/2 METHOD
+RefactoringAction 1394405350022 TestRoman.java RENAME lxxShouldBeSeventy()/2=>void lxxxShouldBeSeventy() METHOD
+RefactoringAction 1394405354036 TestRoman.java RENAME lxxxShouldBeSeventy()=>void lxxxShouldBeEighty() METHOD
+EditAction 1394405358383 TestRoman.java 2548 20 40 20
