@@ -248,3 +248,9 @@ RefactoringAction 1394405559005 TestRoman.java RENAME cccShouldBeNinety()=>void 
 RefactoringAction 1394405561032 TestRoman.java RENAME ccclShouldBeNinety()=>void ccclxixShouldBeNinety() METHOD
 RefactoringAction 1394405570049 TestRoman.java RENAME ccclxixShouldBeNinety()=>void ccclxixShouldBeThreeHundrer() METHOD
 EditAction 1394405575991 TestRoman.java 2937 23 46 23
+UnitTestCaseAction 1394405577643 TestRoman.java OK
+UnitTestSessionAction 1394405577644 TestRoman OK
+RefactoringAction 1394405603079 TestRoman.java ADD void cShouldBeOneHundred()/2 METHOD
+RefactoringAction 1394405604597 TestRoman.java RENAME cShouldBeOneHundred()/2=>void dShouldBeOneHundred() METHOD
+RefactoringAction 1394405609112 TestRoman.java RENAME dShouldBeOneHundred()=>void dShouldBeFiveHundred() METHOD
+EditAction 1394405612876 TestRoman.java 3059 24 48 24

@@ -147,4 +147,10 @@ public class TestRoman {
 		assertThat(roman.intValue(), is(369));
 	}
 	
+	@Test
+	public void dShouldBeFiveHundred() {
+		roman = new Roman("D");
+		assertThat(roman.intValue(), is(500));
+	}
+
 }
