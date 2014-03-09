@@ -2,9 +2,9 @@ package roman;
 
 public class Roman {
 
-	private int romanNumber;
+	private String romanNumber;
 
-	public Roman(int romanNumber) {
+	public Roman(String romanNumber) {
 		this.romanNumber = romanNumber;
 	}
 

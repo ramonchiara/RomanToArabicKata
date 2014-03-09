@@ -21,3 +21,19 @@ RefactoringAction 1394400908901 Roman.java ADD Roman(int) METHOD
 RefactoringAction 1394400914924 Roman.java ADD int to FIELD
 RefactoringAction 1394400918435 Roman.java RENAME to=>int intValue() METHOD
 EditAction 1394400925471 Roman.java 194 2 2 0
+CompilationAction 1394400925732 TestRoman.java
+CompilationAction 1394400925733 TestRoman.java
+RefactoringAction 1394400939992 Roman.java RENAME Roman(int)=>Roman(String) METHOD
+CompilationAction 1394400940271 TestRoman.java
+RefactoringAction 1394400956844 TestRoman.java ADD import org.hamcrest.core.Is IMPORT
+RefactoringAction 1394400988879 TestRoman.java ADD import org.junit.Assert.* IMPORT
+RefactoringAction 1394400988880 TestRoman.java ADD import org.junit.matchers.JUnitMatchers.* IMPORT
+RefactoringAction 1394400988881 TestRoman.java ADD import org.hamcrest.CoreMatchers.* IMPORT
+RefactoringAction 1394400996907 TestRoman.java ADD import org.hamcrest.CoreMatchers.is IMPORT
+RefactoringAction 1394400996908 TestRoman.java ADD import org.junit.Assert.assertThat IMPORT
+CompilationAction 1394400998195 TestRoman.java
+UnitTestCaseAction 1394401005523 TestRoman.java OK
+UnitTestSessionAction 1394401005524 TestRoman OK
+RefactoringAction 1394401028436 TestRoman.java ADD void iiShouldBe FIELD
+RefactoringAction 1394401029972 TestRoman.java RENAME iiShouldBe=>void iiShouldBeTwo() METHOD
+EditAction 1394401055665 TestRoman.java 449 2 6 2
