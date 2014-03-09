@@ -48,3 +48,9 @@ EditAction 1394401186142 TestRoman.java 461 2 6 2
 UnitTestCaseAction 1394401188256 TestRoman.java OK
 UnitTestSessionAction 1394401188257 TestRoman OK
 EditAction 1394401285810 TestRoman.java 417 2 4 2
+UnitTestCaseAction 1394401287881 TestRoman.java OK
+UnitTestSessionAction 1394401287882 TestRoman OK
+RefactoringAction 1394401294775 TestRoman.java ADD void iiShouldBeTwo()/2 METHOD
+RefactoringAction 1394401296293 TestRoman.java RENAME iiShouldBeTwo()/2=>void iiiShouldBeTwo() METHOD
+RefactoringAction 1394401298807 TestRoman.java RENAME iiiShouldBeTwo()=>void iiiShouldBeThree() METHOD
+EditAction 1394401302905 TestRoman.java 535 3 6 3
