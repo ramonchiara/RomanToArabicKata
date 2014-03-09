@@ -84,3 +84,6 @@ RefactoringAction 1394401640075 TestRoman.java ADD void ivShouldBeFour()/2 METHO
 RefactoringAction 1394401642095 TestRoman.java RENAME ivShouldBeFour()/2=>void vShouldBeFour() METHOD
 RefactoringAction 1394401644112 TestRoman.java RENAME vShouldBeFour()=>void vShouldBeFive() METHOD
 EditAction 1394401647870 TestRoman.java 763 5 10 5
+UnitTestCaseAction 1394401649601 TestRoman.java OK
+UnitTestSessionAction 1394401649601 TestRoman OK
+EditAction 1394401679551 Roman.java 629 2 11 0
