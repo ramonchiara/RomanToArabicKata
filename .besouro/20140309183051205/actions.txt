@@ -99,3 +99,6 @@ RefactoringAction 1394402189704 TestRoman.java ADD void vShouldBeFive()/2 METHOD
 RefactoringAction 1394402192719 TestRoman.java RENAME vShouldBeFive()/2=>void viShouldBeFive() METHOD
 RefactoringAction 1394402194734 TestRoman.java RENAME viShouldBeFive()=>void viShouldBeSix() METHOD
 EditAction 1394402196773 TestRoman.java 876 6 12 6
+UnitTestCaseAction 1394402198466 TestRoman.java FAIL
+UnitTestSessionAction 1394402198467 TestRoman FAIL
+EditAction 1394402214425 TestRoman.java 877 6 12 6
