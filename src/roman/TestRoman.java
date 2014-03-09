@@ -12,15 +12,13 @@ public class TestRoman {
 	@Test
 	public void iShouldBeOne() {
 		roman = new Roman("I");
-		int value = roman.intValue();
-		assertThat(value, is(1));
+		assertThat(roman.intValue(), is(1));
 	}
 
 	@Test
 	public void iiShouldBeTwo() {
 		roman = new Roman("II");
-		int value = roman.intValue();
-		assertThat(value, is(2));
+		assertThat(roman.intValue(), is(2));
 	}
 
 }
