@@ -1,0 +1,8 @@
+FileOpenedAction 1394400714428 TestRoman.java 51 0 0 0
+RefactoringAction 1394400724278 TestRoman.java ADD void test FIELD
+RefactoringAction 1394400725787 TestRoman.java REMOVE test FIELD
+RefactoringAction 1394400758331 TestRoman.java ADD void one FIELD
+RefactoringAction 1394400764346 TestRoman.java RENAME one=>void oneShouldBeOne() METHOD
+RefactoringAction 1394400770882 TestRoman.java ADD import org.junit.Test IMPORT
+RefactoringAction 1394400798942 TestRoman.java RENAME oneShouldBeOne()=>void iShouldBeOne() METHOD
+EditAction 1394400852970 TestRoman.java 215 1 3 1
