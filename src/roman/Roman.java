@@ -28,7 +28,9 @@ public class Roman {
 			if (lastDigit != null && digit > lastDigit) {
 				value = digit - value;
 				if (value < 0) {
-					value = -value + digit;
+					value = value + digit;
+					value = value - lastDigit;
+					value = value + digit - lastDigit;
 				}
 			} else {
 				value = value + digit;
