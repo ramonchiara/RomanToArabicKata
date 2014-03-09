@@ -28,7 +28,7 @@ public class Roman {
 			if (lastDigit != null && digit > lastDigit) {
 				value = digit - value;
 				if (value < 0) {
-					value = Math.abs(value) + digit;
+					value = -value + digit;
 				}
 			} else {
 				value = value + digit;
