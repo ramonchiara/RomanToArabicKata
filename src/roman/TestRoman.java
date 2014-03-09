@@ -130,7 +130,7 @@ public class TestRoman {
 	}
 
 	@Test
-	public void cShouldBeOneHundrer() {
+	public void cShouldBeOneHundred() {
 		roman = new Roman("C");
 		assertThat(roman.intValue(), is(100));
 	}

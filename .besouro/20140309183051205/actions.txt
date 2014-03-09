@@ -235,3 +235,6 @@ RefactoringAction 1394405480268 TestRoman.java RENAME xcShouldBeOneHundrer()=>vo
 RefactoringAction 1394405483286 TestRoman.java RENAME xcShouldBeNon()=>void xcShouldBeNinety() METHOD
 EditAction 1394405483603 TestRoman.java 2788 22 44 22
 EditAction 1394405488027 TestRoman.java 2788 22 44 22
+UnitTestCaseAction 1394405490029 TestRoman.java OK
+UnitTestSessionAction 1394405490030 TestRoman OK
+EditAction 1394405502198 TestRoman.java 2788 22 44 22
