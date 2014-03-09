@@ -137,8 +137,8 @@ public class TestRoman {
 
 	@Test
 	public void xcShouldBeNinety() {
-		roman = new Roman("C");
-		assertThat(roman.intValue(), is(100));
+		roman = new Roman("XC");
+		assertThat(roman.intValue(), is(90));
 	}
 
 }
