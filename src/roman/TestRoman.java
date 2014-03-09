@@ -58,12 +58,6 @@ public class TestRoman {
 	}
 
 	@Test
-	public void xlShouldBeFourty() {
-		roman = new Roman("XL");
-		assertThat(roman.intValue(), is(40));
-	}
-
-	@Test
 	public void ixShouldBeNine() {
 		roman = new Roman("IX");
 		assertThat(roman.intValue(), is(9));
@@ -103,6 +97,12 @@ public class TestRoman {
 	public void xxivShouldBeTwentyFour() {
 		roman = new Roman("XXIV");
 		assertThat(roman.intValue(), is(24));
+	}
+
+	@Test
+	public void xlShouldBeFourty() {
+		roman = new Roman("XL");
+		assertThat(roman.intValue(), is(40));
 	}
 
 	@Test

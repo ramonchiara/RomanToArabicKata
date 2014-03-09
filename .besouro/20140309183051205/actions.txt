@@ -194,3 +194,6 @@ RefactoringAction 1394405265244 TestRoman.java RENAME ixShouldBeNine()/2=>void x
 RefactoringAction 1394405268261 TestRoman.java RENAME xlShouldBeNine()=>void xlShouldBeFou() METHOD
 RefactoringAction 1394405270776 TestRoman.java RENAME xlShouldBeFou()=>void xlShouldBeFourty() METHOD
 EditAction 1394405275167 TestRoman.java 2189 17 34 17
+RefactoringAction 1394405283826 TestRoman.java REMOVE xlShouldBeFourty() METHOD
+RefactoringAction 1394405294842 TestRoman.java ADD void xlShouldBeFourty() METHOD
+EditAction 1394405295855 TestRoman.java 2189 17 34 17
