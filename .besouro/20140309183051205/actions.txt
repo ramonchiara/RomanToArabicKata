@@ -93,3 +93,9 @@ EditAction 1394401868805 Roman.java 589 2 7 0
 EditAction 1394402126942 Roman.java 720 2 8 0
 EditAction 1394402160960 Roman.java 727 2 8 0
 EditAction 1394402175578 Roman.java 745 2 8 0
+UnitTestCaseAction 1394402177364 TestRoman.java OK
+UnitTestSessionAction 1394402177365 TestRoman OK
+RefactoringAction 1394402189704 TestRoman.java ADD void vShouldBeFive()/2 METHOD
+RefactoringAction 1394402192719 TestRoman.java RENAME vShouldBeFive()/2=>void viShouldBeFive() METHOD
+RefactoringAction 1394402194734 TestRoman.java RENAME viShouldBeFive()=>void viShouldBeSix() METHOD
+EditAction 1394402196773 TestRoman.java 876 6 12 6

@@ -39,4 +39,10 @@ public class TestRoman {
 		assertThat(roman.intValue(), is(5));
 	}
 
+	@Test
+	public void viShouldBeSix() {
+		roman = new Roman("V");
+		assertThat(roman.intValue(), is(6));
+	}
+
 }
