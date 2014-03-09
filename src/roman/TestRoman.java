@@ -51,4 +51,10 @@ public class TestRoman {
 		assertThat(roman.intValue(), is(7));
 	}
 
+	@Test
+	public void viiiShouldBeEight() {
+		roman = new Roman("VII");
+		assertThat(roman.intValue(), is(8));
+	}
+
 }
