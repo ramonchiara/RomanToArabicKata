@@ -80,3 +80,7 @@ EditAction 1394401615679 Roman.java 507 2 7 0
 UnitTestCaseAction 1394401618010 TestRoman.java OK
 UnitTestSessionAction 1394401618011 TestRoman OK
 EditAction 1394401632030 Roman.java 536 2 8 0
+RefactoringAction 1394401640075 TestRoman.java ADD void ivShouldBeFour()/2 METHOD
+RefactoringAction 1394401642095 TestRoman.java RENAME ivShouldBeFour()/2=>void vShouldBeFour() METHOD
+RefactoringAction 1394401644112 TestRoman.java RENAME vShouldBeFour()=>void vShouldBeFive() METHOD
+EditAction 1394401647870 TestRoman.java 763 5 10 5

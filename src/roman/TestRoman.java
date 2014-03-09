@@ -33,4 +33,10 @@ public class TestRoman {
 		assertThat(roman.intValue(), is(4));
 	}
 
+	@Test
+	public void vShouldBeFive() {
+		roman = new Roman("V");
+		assertThat(roman.intValue(), is(5));
+	}
+
 }
