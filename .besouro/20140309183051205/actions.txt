@@ -184,3 +184,6 @@ RefactoringAction 1394405170136 TestRoman.java RENAME xxivShouldBeTwentyFour()/2
 RefactoringAction 1394405173149 TestRoman.java RENAME lShouldBeTwentyFour()=>void lShouldBeFif() METHOD
 RefactoringAction 1394405174663 TestRoman.java RENAME lShouldBeFif()=>void lShouldBeFifty() METHOD
 EditAction 1394405180837 TestRoman.java 2071 16 32 16
+UnitTestCaseAction 1394405183044 TestRoman.java FAIL
+UnitTestSessionAction 1394405183045 TestRoman FAIL
+EditAction 1394405200231 Roman.java 940 2 10 0
