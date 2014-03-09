@@ -238,3 +238,13 @@ EditAction 1394405488027 TestRoman.java 2788 22 44 22
 UnitTestCaseAction 1394405490029 TestRoman.java OK
 UnitTestSessionAction 1394405490030 TestRoman OK
 EditAction 1394405502198 TestRoman.java 2788 22 44 22
+UnitTestCaseAction 1394405503864 TestRoman.java OK
+UnitTestSessionAction 1394405503865 TestRoman OK
+UnitTestCaseAction 1394405519815 TestRoman.java OK
+UnitTestSessionAction 1394405519816 TestRoman OK
+RefactoringAction 1394405543893 TestRoman.java ADD void xcShouldBeNinety()/2 METHOD
+RefactoringAction 1394405557485 TestRoman.java RENAME xcShouldBeNinety()/2=>void cccShouldBeNinety() METHOD
+RefactoringAction 1394405559005 TestRoman.java RENAME cccShouldBeNinety()=>void ccclShouldBeNinety() METHOD
+RefactoringAction 1394405561032 TestRoman.java RENAME ccclShouldBeNinety()=>void ccclxixShouldBeNinety() METHOD
+RefactoringAction 1394405570049 TestRoman.java RENAME ccclxixShouldBeNinety()=>void ccclxixShouldBeThreeHundrer() METHOD
+EditAction 1394405575991 TestRoman.java 2937 23 46 23

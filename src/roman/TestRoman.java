@@ -140,5 +140,11 @@ public class TestRoman {
 		roman = new Roman("XC");
 		assertThat(roman.intValue(), is(90));
 	}
-
+	
+	@Test
+	public void ccclxixShouldBeThreeHundredAndSixtyNine() {
+		roman = new Roman("CCCLXIX");
+		assertThat(roman.intValue(), is(369));
+	}
+	
 }
