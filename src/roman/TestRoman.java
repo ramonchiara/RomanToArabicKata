@@ -135,4 +135,10 @@ public class TestRoman {
 		assertThat(roman.intValue(), is(100));
 	}
 
+	@Test
+	public void xcShouldBeNinety() {
+		roman = new Roman("C");
+		assertThat(roman.intValue(), is(100));
+	}
+
 }
