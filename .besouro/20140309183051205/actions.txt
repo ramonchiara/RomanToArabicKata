@@ -187,3 +187,10 @@ EditAction 1394405180837 TestRoman.java 2071 16 32 16
 UnitTestCaseAction 1394405183044 TestRoman.java FAIL
 UnitTestSessionAction 1394405183045 TestRoman FAIL
 EditAction 1394405200231 Roman.java 940 2 10 0
+UnitTestCaseAction 1394405225570 TestRoman.java OK
+UnitTestSessionAction 1394405225570 TestRoman OK
+RefactoringAction 1394405262729 TestRoman.java ADD void ixShouldBeNine()/2 METHOD
+RefactoringAction 1394405265244 TestRoman.java RENAME ixShouldBeNine()/2=>void xlShouldBeNine() METHOD
+RefactoringAction 1394405268261 TestRoman.java RENAME xlShouldBeNine()=>void xlShouldBeFou() METHOD
+RefactoringAction 1394405270776 TestRoman.java RENAME xlShouldBeFou()=>void xlShouldBeFourty() METHOD
+EditAction 1394405275167 TestRoman.java 2189 17 34 17
