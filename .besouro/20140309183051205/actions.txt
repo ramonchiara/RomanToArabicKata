@@ -268,3 +268,6 @@ UnitTestSessionAction 1394405651379 TestRoman OK
 RefactoringAction 1394405672781 TestRoman.java ADD void cdShouldBeFourHundred()/2 METHOD
 RefactoringAction 1394405688890 TestRoman.java RENAME cdShouldBeFourHundred()/2=>void cdxShouldBeFourHundred() METHOD
 EditAction 1394405691679 TestRoman.java 3320 26 52 26
+UnitTestCaseAction 1394405693540 TestRoman.java OK
+UnitTestSessionAction 1394405693541 TestRoman OK
+EditAction 1394405699343 TestRoman.java 3317 26 52 26

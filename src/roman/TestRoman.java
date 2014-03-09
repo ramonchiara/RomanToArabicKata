@@ -140,13 +140,13 @@ public class TestRoman {
 		roman = new Roman("XC");
 		assertThat(roman.intValue(), is(90));
 	}
-	
+
 	@Test
 	public void ccclxixShouldBeThreeHundredAndSixtyNine() {
 		roman = new Roman("CCCLXIX");
 		assertThat(roman.intValue(), is(369));
 	}
-	
+
 	@Test
 	public void dShouldBeFiveHundred() {
 		roman = new Roman("D");
@@ -158,7 +158,7 @@ public class TestRoman {
 		roman = new Roman("CD");
 		assertThat(roman.intValue(), is(400));
 	}
-	
+
 	@Test
 	public void cdxlviiiShouldBeFourHundred() {
 		roman = new Roman("CDXLVIII");
