@@ -87,4 +87,10 @@ public class TestRoman {
 		assertThat(roman.intValue(), is(13));
 	}
 
+	@Test
+	public void xxxiShouldBeThirtyOne() {
+		roman = new Roman("XXXI");
+		assertThat(roman.intValue(), is(31));
+	}
+
 }

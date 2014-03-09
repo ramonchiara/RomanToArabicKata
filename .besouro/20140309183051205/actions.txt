@@ -145,3 +145,10 @@ RefactoringAction 1394402532368 TestRoman.java RENAME xiiShouldBeTwelve()/2=>voi
 RefactoringAction 1394402534886 TestRoman.java RENAME xiiiShouldBeTwelve()=>void xiiiShouldBeThr() METHOD
 RefactoringAction 1394402537402 TestRoman.java RENAME xiiiShouldBeThr()=>void xiiiShouldBeThirteen() METHOD
 EditAction 1394402542812 TestRoman.java 1705 13 26 13
+UnitTestCaseAction 1394402544529 TestRoman.java OK
+UnitTestSessionAction 1394402544529 TestRoman OK
+RefactoringAction 1394402618458 TestRoman.java ADD void xiiiShouldBeThirteen()/2 METHOD
+RefactoringAction 1394402641975 TestRoman.java RENAME xiiiShouldBeThirteen()/2=>void xxxiShouldBeThirteen() METHOD
+RefactoringAction 1394402645492 TestRoman.java RENAME xxxiShouldBeThirteen()=>void xxxiShouldBeThi() METHOD
+RefactoringAction 1394402647512 TestRoman.java RENAME xxxiShouldBeThi()=>void xxxiShouldBeThirtyOne() METHOD
+EditAction 1394402651675 TestRoman.java 1830 14 28 14
