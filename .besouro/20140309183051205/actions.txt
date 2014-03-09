@@ -67,3 +67,10 @@ RefactoringAction 1394401373791 Roman.java ADD Map<String,Integer> basicNumbers 
 RefactoringAction 1394401389858 Roman.java RENAME import java.util.HashMap=>import java.util.Map IMPORT
 RefactoringAction 1394401393378 Roman.java ADD import java.util.HashMap IMPORT
 EditAction 1394401438120 Roman.java 477 2 6 0
+UnitTestCaseAction 1394401441171 TestRoman.java OK
+UnitTestSessionAction 1394401441172 TestRoman OK
+RefactoringAction 1394401587952 TestRoman.java ADD void iiiShouldBeThree()/2 METHOD
+RefactoringAction 1394401589968 TestRoman.java RENAME iiiShouldBeThree()/2=>void ivShouldBeThree() METHOD
+RefactoringAction 1394401591986 TestRoman.java RENAME ivShouldBeThree()=>void ivShouldBe() METHOD
+RefactoringAction 1394401594007 TestRoman.java RENAME ivShouldBe()=>void ivShouldBeFour() METHOD
+EditAction 1394401600733 TestRoman.java 650 4 8 4
