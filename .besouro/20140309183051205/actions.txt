@@ -77,3 +77,6 @@ EditAction 1394401600733 TestRoman.java 650 4 8 4
 UnitTestCaseAction 1394401602391 TestRoman.java FAIL
 UnitTestSessionAction 1394401602392 TestRoman FAIL
 EditAction 1394401615679 Roman.java 507 2 7 0
+UnitTestCaseAction 1394401618010 TestRoman.java OK
+UnitTestSessionAction 1394401618011 TestRoman OK
+EditAction 1394401632030 Roman.java 536 2 8 0
