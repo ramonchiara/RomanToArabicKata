@@ -197,3 +197,9 @@ EditAction 1394405275167 TestRoman.java 2189 17 34 17
 RefactoringAction 1394405283826 TestRoman.java REMOVE xlShouldBeFourty() METHOD
 RefactoringAction 1394405294842 TestRoman.java ADD void xlShouldBeFourty() METHOD
 EditAction 1394405295855 TestRoman.java 2189 17 34 17
+UnitTestCaseAction 1394405297611 TestRoman.java OK
+UnitTestSessionAction 1394405297611 TestRoman OK
+RefactoringAction 1394405303868 TestRoman.java ADD void lShouldBeFifty()/2 METHOD
+RefactoringAction 1394405306886 TestRoman.java RENAME lShouldBeFifty()/2=>void lxShouldBeFifty() METHOD
+RefactoringAction 1394405309898 TestRoman.java RENAME lxShouldBeFifty()=>void lxShouldBeSixty() METHOD
+EditAction 1394405313838 TestRoman.java 2306 18 36 18
