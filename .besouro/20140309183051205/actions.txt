@@ -224,3 +224,6 @@ RefactoringAction 1394405437607 TestRoman.java ADD void lxxxShouldBeEighty()/2 M
 RefactoringAction 1394405440134 TestRoman.java RENAME lxxxShouldBeEighty()/2=>void cShouldBeEighty() METHOD
 RefactoringAction 1394405445654 TestRoman.java RENAME cShouldBeEighty()=>void cShouldBeOneHundrer() METHOD
 EditAction 1394405451392 TestRoman.java 2670 21 42 21
+UnitTestCaseAction 1394405452704 TestRoman.java FAIL
+UnitTestSessionAction 1394405452705 TestRoman FAIL
+EditAction 1394405460719 Roman.java 971 2 11 0

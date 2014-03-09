@@ -17,6 +17,7 @@ public class Roman {
 		basicNumbers.put("V", 5);
 		basicNumbers.put("X", 10);
 		basicNumbers.put("L", 50);
+		basicNumbers.put("C", 100);
 	}
 
 	public int intValue() {
