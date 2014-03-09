@@ -69,4 +69,22 @@ public class TestRoman {
 		assertThat(roman.intValue(), is(10));
 	}
 
+	@Test
+	public void xiShouldBeEleven() {
+		roman = new Roman("XI");
+		assertThat(roman.intValue(), is(11));
+	}
+
+	@Test
+	public void xiiShouldBeTwelve() {
+		roman = new Roman("XII");
+		assertThat(roman.intValue(), is(12));
+	}
+
+	@Test
+	public void xiiiShouldBeThirteen() {
+		roman = new Roman("XIII");
+		assertThat(roman.intValue(), is(13));
+	}
+
 }

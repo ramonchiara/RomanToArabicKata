@@ -132,3 +132,16 @@ RefactoringAction 1394402485073 TestRoman.java ADD void ixShouldBeNine()/2 METHO
 RefactoringAction 1394402488601 TestRoman.java RENAME ixShouldBeNine()/2=>void xShouldBeNine() METHOD
 RefactoringAction 1394402492153 TestRoman.java RENAME xShouldBeNine()=>void xShouldBeTen() METHOD
 EditAction 1394402495504 TestRoman.java 1343 10 20 10
+UnitTestCaseAction 1394402499840 TestRoman.java OK
+UnitTestSessionAction 1394402499841 TestRoman OK
+RefactoringAction 1394402505682 TestRoman.java ADD void xShouldBeTen()/2 METHOD
+RefactoringAction 1394402508710 TestRoman.java RENAME xShouldBeTen()/2=>void xiShouldBeTen() METHOD
+RefactoringAction 1394402511725 TestRoman.java RENAME xiShouldBeTen()=>void xiShouldBeEleven() METHOD
+RefactoringAction 1394402517270 TestRoman.java ADD void xiShouldBeEleven()/2 METHOD
+RefactoringAction 1394402519786 TestRoman.java RENAME xiShouldBeEleven()/2=>void xiiShouldBeEleven() METHOD
+RefactoringAction 1394402523805 TestRoman.java RENAME xiiShouldBeEleven()=>void xiiShouldBeTwelve() METHOD
+RefactoringAction 1394402530850 TestRoman.java ADD void xiiShouldBeTwelve()/2 METHOD
+RefactoringAction 1394402532368 TestRoman.java RENAME xiiShouldBeTwelve()/2=>void xiiiShouldBeTwelve() METHOD
+RefactoringAction 1394402534886 TestRoman.java RENAME xiiiShouldBeTwelve()=>void xiiiShouldBeThr() METHOD
+RefactoringAction 1394402537402 TestRoman.java RENAME xiiiShouldBeThr()=>void xiiiShouldBeThirteen() METHOD
+EditAction 1394402542812 TestRoman.java 1705 13 26 13
