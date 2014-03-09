@@ -41,3 +41,7 @@ UnitTestCaseAction 1394401068652 TestRoman.java FAIL
 UnitTestSessionAction 1394401068653 TestRoman FAIL
 EditAction 1394401146623 Roman.java 269 2 2 0
 EditAction 1394401161663 Roman.java 266 2 2 0
+UnitTestCaseAction 1394401167458 TestRoman.java OK
+UnitTestSessionAction 1394401167459 TestRoman OK
+RefactoringAction 1394401178624 TestRoman.java ADD Roman roman FIELD
+EditAction 1394401186142 TestRoman.java 461 2 6 2

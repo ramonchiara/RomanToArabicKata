@@ -7,16 +7,18 @@ import org.junit.Test;
 
 public class TestRoman {
 
+	private Roman roman;
+
 	@Test
 	public void iShouldBeOne() {
-		Roman roman = new Roman("I");
+		roman = new Roman("I");
 		int value = roman.intValue();
 		assertThat(value, is(1));
 	}
-	
+
 	@Test
 	public void iiShouldBeTwo() {
-		Roman roman = new Roman("II");
+		roman = new Roman("II");
 		int value = roman.intValue();
 		assertThat(value, is(2));
 	}
