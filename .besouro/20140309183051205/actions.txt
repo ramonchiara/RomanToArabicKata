@@ -117,3 +117,9 @@ EditAction 1394402282914 TestRoman.java 1114 8 16 8
 UnitTestCaseAction 1394402284725 TestRoman.java FAIL
 UnitTestSessionAction 1394402284726 TestRoman FAIL
 EditAction 1394402290778 TestRoman.java 1115 8 16 8
+UnitTestCaseAction 1394402292608 TestRoman.java OK
+UnitTestSessionAction 1394402292609 TestRoman OK
+RefactoringAction 1394402299953 TestRoman.java ADD void viiiShouldBeEight()/2 METHOD
+RefactoringAction 1394402302974 TestRoman.java RENAME viiiShouldBeEight()/2=>void ixShouldBeEight() METHOD
+RefactoringAction 1394402305489 TestRoman.java RENAME ixShouldBeEight()=>void ixShouldBeNine() METHOD
+EditAction 1394402308752 TestRoman.java 1230 9 18 9

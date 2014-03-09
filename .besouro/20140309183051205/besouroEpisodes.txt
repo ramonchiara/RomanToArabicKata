@@ -26,3 +26,7 @@
 1394402216540 test-addition 1 26 true
 1394402265298 test-addition 1 25 true
 1394402265299 test-addition 1 25 true
+1394402292609 test-addition 2 20 true
+1394402292610 test-addition 1 20 true
+1394402292611 test-addition 2 20 true
+1394402292612 test-addition 1 20 true
