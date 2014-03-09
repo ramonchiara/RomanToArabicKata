@@ -125,7 +125,7 @@ public class TestRoman {
 
 	@Test
 	public void lxxxShouldBeEighty() {
-		roman = new Roman("LXX");
+		roman = new Roman("LXXX");
 		assertThat(roman.intValue(), is(80));
 	}
 
