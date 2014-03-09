@@ -54,3 +54,6 @@ RefactoringAction 1394401294775 TestRoman.java ADD void iiShouldBeTwo()/2 METHOD
 RefactoringAction 1394401296293 TestRoman.java RENAME iiShouldBeTwo()/2=>void iiiShouldBeTwo() METHOD
 RefactoringAction 1394401298807 TestRoman.java RENAME iiiShouldBeTwo()=>void iiiShouldBeThree() METHOD
 EditAction 1394401302905 TestRoman.java 535 3 6 3
+UnitTestCaseAction 1394401304701 TestRoman.java FAIL
+UnitTestSessionAction 1394401304702 TestRoman FAIL
+EditAction 1394401324381 Roman.java 321 2 2 0
