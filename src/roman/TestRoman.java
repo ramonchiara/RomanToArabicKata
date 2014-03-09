@@ -158,5 +158,11 @@ public class TestRoman {
 		roman = new Roman("CD");
 		assertThat(roman.intValue(), is(400));
 	}
+	
+	@Test
+	public void cdxlviiiShouldBeFourHundred() {
+		roman = new Roman("CDXLVIII");
+		assertThat(roman.intValue(), is(448));
+	}
 
 }
