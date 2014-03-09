@@ -161,3 +161,6 @@ RefactoringAction 1394402683103 TestRoman.java RENAME xxivShouldBeThirtyOne()=>v
 RefactoringAction 1394402686122 TestRoman.java RENAME xxivShouldBe()=>void xxivShouldBeTwenty() METHOD
 RefactoringAction 1394402688140 TestRoman.java RENAME xxivShouldBeTwenty()=>void xxivShouldBeTwentyFour() METHOD
 EditAction 1394402694527 TestRoman.java 1956 15 30 15
+UnitTestCaseAction 1394402698146 TestRoman.java FAIL
+UnitTestSessionAction 1394402698147 TestRoman FAIL
+EditAction 1394402914744 Roman.java 878 2 9 0
